@@ -43,6 +43,7 @@ bash install_packages.sh
 
 Upload pose_hrnet-w48_384x288-deepfashion2_mAP_0.7017.pth to fashion_landmark.
 
+Next, run fashion ***landmark/Pytorch to TFLite.ipynb*** in sequence to get the TFLite model.
 
 
 
