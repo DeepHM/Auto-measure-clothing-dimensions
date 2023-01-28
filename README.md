@@ -1,10 +1,10 @@
 # Auto-measure-clothing-dimensions
 Deep learning based automatic clothing length measurement project using PointCloud and RGB images
 
-## purpose of the project
+# Purpose of the project
 Using RGB images and Point Cloud data, build a deep learning-based automatic clothing length measurement system that can operate on-device inside a mobile device.
 
-## Overview
+# Overview
 <img src="https://user-images.githubusercontent.com/37736774/215036841-c9c5aad5-bcf0-4693-a067-b5d56d18f0cb.png" width="800" height="400"/>
 
    
@@ -13,9 +13,9 @@ Using RGB images and Point Cloud data, build a deep learning-based automatic clo
 <br/>
 
 
-## code process
+# code process
 
-#### preparation 
+### Preparation 
 
 - Creating a virtual environment and registering the virtual environment in Jupyter
 
@@ -50,8 +50,10 @@ Next, run fashion ***landmark/Pytorch to TFLite.ipynb*** in sequence to get the 
 
 Finally, move the generated *TFLite model* to the *auto_clothing_measure folder*.
 
+<br/>
+<br/>
 
-#### inference
+### Inference
 
 - Save the model landmark prediction results as a json file.
 
@@ -73,6 +75,7 @@ python rgb_to_json.py -ip samples/point_cloud_sample1/rgb.jpg -jn samples/point_
    ```
 
 
+### Result
 
 
 
