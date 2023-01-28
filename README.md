@@ -84,6 +84,11 @@ python rgb_to_json.py -ip samples/point_cloud_sample1/rgb.jpg -jn samples/point_
 - Actual Length
 <img src="https://user-images.githubusercontent.com/37736774/215266652-d176cdb7-36bb-4be8-a807-47f091bb3121.JPG" width="600" height="200"/>
 
+- Prediction - version1
+<img src="https://user-images.githubusercontent.com/37736774/215266712-d25791dd-5786-4ec9-8054-7d925872fcc2.png" width="600" height="500"/>
+
+- Prediction - version2
+<img src="https://user-images.githubusercontent.com/37736774/215266732-a004b77e-44fc-4d68-b2ba-3ed59028f6b9.png" width="600" height="500"/>
 
 
 
