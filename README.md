@@ -74,8 +74,15 @@ python rgb_to_json.py -ip samples/point_cloud_sample1/rgb.jpg -jn samples/point_
    python json_to_landmark_v2.py -r samples/point_cloud_sample1
    ```
 
+<br/>
 
 ### Result
+
+- Input Data
+<img src="https://user-images.githubusercontent.com/37736774/215266341-b3602353-2717-44f4-b7e3-b001618a5e09.JPG" width="800" height="200"/>
+
+- Actual Length
+<img src="https://user-images.githubusercontent.com/37736774/215266652-d176cdb7-36bb-4be8-a807-47f091bb3121.JPG" width="600" height="200"/>
 
 
 
