@@ -91,6 +91,27 @@ python rgb_to_json.py -ip samples/point_cloud_sample1/rgb.jpg -jn samples/point_
 <img src="https://user-images.githubusercontent.com/37736774/215266732-a004b77e-44fc-4d68-b2ba-3ed59028f6b9.png" width="600" height="500"/>
 
 
+<br/>
+<br/>
+
+### To Do
+
+- Mobile net-based model training and testing
+ 
+- Create more precise (enhanced) point cloud data from depth data
+
+- Improving the performance of the final model (including the stable training phase)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
