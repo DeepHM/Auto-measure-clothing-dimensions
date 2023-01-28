@@ -55,20 +55,20 @@ Finally, move the generated *TFLite model* to the *auto_clothing_measure folder*
 
 ### Inference
 
-- Save the model landmark prediction results as a json file.
+- Save the model landmark prediction results as a json file.  &rightarrow; **estimated_kpt.json** is created
 
 ```
 python rgb_to_json.py -ip samples/point_cloud_sample1/rgb.jpg -jn samples/point_cloud_sample1/estimated_kpt.json
 ```
 
-* Save length(cm) by category and visualization images using the created json file.
-   * Length measurement methodology - version1
+* Save length(cm) by category and visualization images using the created json file. 
+   * Length measurement methodology - version1  &rightarrow; **result_kpt_v1.json** and **result_image_v1.png** is created
 
    ```
    python json_to_landmark_v1.py -r samples/point_cloud_sample1
    ```
   
-  *  Length measurement methodology - version1
+  *  Length measurement methodology - version1  &rightarrow; **new_ply.ply** , **result_kpt_v2.json** , **result_image_v2.png** is created
 
    ```
    python json_to_landmark_v2.py -r samples/point_cloud_sample1
