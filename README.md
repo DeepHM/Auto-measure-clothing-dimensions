@@ -44,9 +44,11 @@ bash install_packages.sh
 * Upload ***pose_hrnet-w48_384x288-deepfashion2_mAP_0.7017.pth*** to fashion_landmark.
 
    * download : (https://shanghaitecheducn-my.sharepoint.com/personal/qianshh_shanghaitech_edu_cn/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fqianshh%5Fshanghaitech%5Fedu%5Fcn%2FDocuments%2Fshare%2FProjects%2Fhrnet%2Dfor%2Dfashion%2Dlandmark%2Destimation%2Epytorch%2Fmodels)
-   * source-git(HRNet-for-Fashion-Landmark-Estimation.PyTorch) : (https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch)
+   * source-git (HRNet-for-Fashion-Landmark-Estimation.PyTorch) : (https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch)
 
 Next, run fashion ***landmark/Pytorch to TFLite.ipynb*** in sequence to get the TFLite model.
+
+Finally, move the generated *TFLite model* to the *auto_clothing_measure folder*.
 
 
 
