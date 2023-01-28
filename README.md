@@ -68,7 +68,7 @@ python rgb_to_json.py -ip samples/point_cloud_sample1/rgb.jpg -jn samples/point_
    python json_to_landmark_v1.py -r samples/point_cloud_sample1
    ```
   
-  *  Length measurement methodology (version2)  &rightarrow; **new_ply.ply** , **result_kpt_v2.json** , **result_image_v2.png** is created
+  *  Length measurement methodology (version2)  &rightarrow; **new_ply.ply** , **result_kpt_v2.json** and **result_image_v2.png** is created
 
    ```
    python json_to_landmark_v2.py -r samples/point_cloud_sample1
